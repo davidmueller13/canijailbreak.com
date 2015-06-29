@@ -1,0 +1,51 @@
+body {
+    padding-top: 20px;
+}
+
+div.top {
+    font-size: 1.5em;
+    text-align: center;
+
+    padding-bottom: 20px;
+}
+
+div.top small {
+    font-size: 0.6em;
+    color: #999;
+}
+
+div.most-recent {
+    font-size: 1.5em;
+}
+
+div.most-recent i.fa {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+div.jailbreak {
+    text-align: center;
+    min-height: 180px;
+}
+
+div.jailbreak i.fa {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+div.previous {
+    text-align: center;
+}
+
+div.footer {
+    text-align: center;
+}
+
+img.img-header {
+    width: 100px;
+    height: 100px;
+}
+
+div.footer {
+    padding-bottom: 30px;
+}
