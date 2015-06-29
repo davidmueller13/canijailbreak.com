@@ -32,6 +32,22 @@
         },
         {
             "jailbroken": true,
+            "name": "PPJailbreak",
+            "version": "1.0",
+            "url": "http://pro.25pp.com/ppghost_mac",
+            "ios": {
+                "start": "8.0",
+                "end": "8.1.2"
+            },
+
+            "caveats": "No English version, follow a tutorial to use",
+
+            "platforms": [
+                "OS X"
+            ]
+        },
+        {
+            "jailbroken": true,
             "name": "Pangu",
             "version": "1.2.1",
             "url": "http://en.7.pangu.io/",
