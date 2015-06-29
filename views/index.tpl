@@ -79,7 +79,7 @@
             <hr>
 
             <div class="footer">
-                canijailbreak.com is <a href="https://github.com/cj123/canijailbreak">open source on GitHub</a>. thanks to chpwn for the <a href="http://jailbrea.kr">inspiration</a>. previous information (and more) gathered from <a href="https://www.theiphonewiki.com/wiki/Jailbreak">The iPhone Wiki</a>.<br><br>
+                canijailbreak.com is <a href="https://github.com/cj123/canijailbreak.com">open source on GitHub</a>. thanks to chpwn for the <a href="http://jailbrea.kr">inspiration</a>. previous information (and more) gathered from <a href="https://www.theiphonewiki.com/wiki/Jailbreak">The iPhone Wiki</a>.<br><br>
 
                 <a href="https://ipsw.me/">IPSW Downloads can be found here</a>
             </div>
