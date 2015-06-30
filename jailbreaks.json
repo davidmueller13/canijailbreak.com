@@ -75,8 +75,7 @@
 
             "platforms": [
                 "Windows",
-                "OS X",
-                "Linux"
+                "OS X"
             ]
         },
         {
