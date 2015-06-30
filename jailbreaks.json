@@ -1,26 +1,13 @@
 {
     "jailbreaks": [
         {
-            "jailbroken": false,
-            "name": "",
-            "version": "",
-            "url": "",
-            "ios": {
-                "start": "",
-                "end": ""
-            },
-            "caveats": "",
-
-            "platforms": []
-        },
-        {
             "jailbroken": true,
             "name": "TaiG",
-            "version": "2.1.2+",
+            "version": "2.2.0",
             "url": "http://taig.com/en",
             "ios": {
                 "start": "8.1.3",
-                "end": "8.3"
+                "end": "8.4"
             },
             "caveats": "",
 
