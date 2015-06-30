@@ -55,6 +55,10 @@
                 {{ else }}
                     <span class="text-danger"><i class="fa fa-times"></i> No jailbreak yet :(. Check back later!</span></p>
 
+                    {{ with .MostRecent.Caveats }}
+                        <p class="text-warning">{{ .MostRecent.Caveats }}</p>
+                    {{ end }}
+
                     <em>If you are already jailbroken, we recommend that you <strong>do not upgrade</strong> or you will lose your jailbreak!</em>
                 {{ end }}
             </div>
@@ -92,7 +96,7 @@
             <div class="footer">
                 canijailbreak.com is <a href="https://github.com/cj123/canijailbreak.com">open source on GitHub</a>. thanks to chpwn for the <a href="http://jailbrea.kr">inspiration</a>. previous information (and more) gathered from <a href="https://www.theiphonewiki.com/wiki/Jailbreak">The iPhone Wiki</a>.<br><br>
 
-                <a href="https://ipsw.me/">IPSW Downloads can be found here</a>
+                <a href="https://ipsw.me/" class="btn btn-info">IPSW Downloads can be found here</a>
             </div>
         </div>
     </body>

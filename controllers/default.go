@@ -9,13 +9,20 @@ type MainController struct {
 	beego.Controller
 }
 
-func (c *MainController) Get() {
-	jbs, err := models.GetJailbreaks()
+var jbs *models.JailbreakJSON
+
+// only get json data on startup
+func init() {
+	var err error
+
+	jbs, err = models.GetJailbreaks()
 
 	if err != nil {
 		panic(err)
 	}
+}
 
+func (c *MainController) Get() {
 	c.Data["MostRecent"] = jbs.Jailbreaks[0]
 	c.Data["Jailbreaks"] = jbs.Jailbreaks[1:]
 
