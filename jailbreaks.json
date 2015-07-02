@@ -194,7 +194,7 @@
             "ios": {
                 "start": "4.0",
                 "end": "4.1"
-        },
+            },
             "caveats": "",
 
             "platforms": [
