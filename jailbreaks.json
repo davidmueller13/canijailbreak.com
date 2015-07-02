@@ -185,6 +185,22 @@
                 "Windows",
                 "OS X"
             ]
+        },
+        {
+            "jailbroken": true,
+            "name": "limera1n",
+            "version": "RC1b",
+            "url": "http://limera1n.com",
+            "ios": {
+                "start": "4.0",
+                "end": "4.1"
+        },
+            "caveats": "",
+
+            "platforms": [
+                "Windows",
+                "OS X"
+            ]
         }
     ]
 }
