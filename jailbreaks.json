@@ -3,7 +3,7 @@
         {
             "jailbroken": true,
             "name": "TaiG",
-            "version": "2.2.0",
+            "version": "2.2.1",
             "url": "http://taig.com/en",
             "ios": {
                 "start": "8.1.3",
@@ -14,6 +14,21 @@
             "platforms": [
                 "Windows"
             ]
+        },
+        {
+            "jailbroken": true,
+            "name": "TaiG",
+            "version": "1.3",
+            "url": "http://taig.com/en",
+            "ios": {
+                "start": "8.2 beta 2",
+                "end": "8.2 beta 3"
+            },
+            "caveats": "",
+            
+            "platforms": [
+                "Windows"
+                ]
         },
         {
             "jailbroken": true,
@@ -165,6 +180,22 @@
                 "start": "5.0"
             },
             "caveats": "iPhone 4S only. Tethered for other devices.",
+
+            "platforms": [
+                "Windows",
+                "OS X"
+            ]
+        },
+        {
+            "jailbroken": true,
+            "name": "limera1n",
+            "version": "RC1b",
+            "url": "http://limera1n.com",
+            "ios": {
+                "start": "4.0",
+                "end": "4.1"
+            },
+            "caveats": "",
 
             "platforms": [
                 "Windows",
