@@ -3,7 +3,7 @@
         {
             "jailbroken": true,
             "name": "TaiG",
-            "version": "2.2.1",
+            "version": "2.3.0",
             "url": "http://taig.com/en",
             "ios": {
                 "start": "8.1.3",
@@ -14,21 +14,6 @@
             "platforms": [
                 "Windows"
             ]
-        },
-        {
-            "jailbroken": true,
-            "name": "TaiG",
-            "version": "1.3",
-            "url": "http://taig.com/en",
-            "ios": {
-                "start": "8.2 beta 2",
-                "end": "8.2 beta 3"
-            },
-            "caveats": "",
-            
-            "platforms": [
-                "Windows"
-                ]
         },
         {
             "jailbroken": true,
