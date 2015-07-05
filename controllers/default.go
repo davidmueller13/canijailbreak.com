@@ -22,11 +22,18 @@ func init() {
 	}
 }
 
-func (c *MainController) Get() {
+func (c *MainController) Index() {
 	c.Data["MostRecent"] = jbs.Jailbreaks[0]
 	c.Data["Jailbreaks"] = jbs.Jailbreaks[1:]
+	c.Data["Title"] = "Find out if you can jailbreak your iOS device"
+	c.Layout = "layout.html"
+	c.TplNames = "jailbreaks.tpl"
+}
 
-	c.TplNames = "index.tpl"
+func (c *MainController) Help() {
+	c.Data["Title"] = "Jailbreaking Help and Support"
+	c.Layout = "layout.html"
+	c.TplNames = "help.tpl"
 }
 
 func GetIconName(platform string) string {

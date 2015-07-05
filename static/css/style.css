@@ -3,14 +3,15 @@ body {
 }
 
 div.top {
-    font-size: 1.5em;
+
     text-align: center;
 
     padding-bottom: 20px;
 }
 
+
 div.top small {
-    font-size: 0.6em;
+
     color: #999;
 }
 
@@ -21,6 +22,11 @@ div.most-recent {
 div.most-recent i.fa {
     padding-left: 4px;
     padding-right: 4px;
+}
+
+div.navigation a {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 div.jailbreak {
