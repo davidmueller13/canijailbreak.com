@@ -173,12 +173,106 @@
         },
         {
             "jailbroken": true,
-            "name": "limera1n",
-            "version": "RC1b",
-            "url": "http://limera1n.com",
+            "name": "redsn0w",
+            "version": "0.9.15b3",
+            "url": "http://ipsw.me/redsn0w",
             "ios": {
-                "start": "4.0",
-                "end": "4.1"
+                "start": "4.3.4",
+                "end": "4.3.5"
+            },
+            "caveats": "Tethered jailbreak. Update to a newer iOS.",
+
+            "platforms": [
+                "Windows",
+                "OS X"
+            ]
+        },
+        {
+            "jailbroken": true,
+            "name": "redsn0w",
+            "version": "0.9.15b3",
+            "url": "http://ipsw.me/redsn0w",
+            "ios": {
+                "start": "4.3",
+                "end": "4.3.3"
+            },
+            "caveats": "",
+
+            "platforms": [
+                "Windows",
+                "OS X"
+            ]
+        },
+        {
+            "jailbroken": true,
+            "name": "redsn0w",
+            "version": "0.9.15b3",
+            "url": "http://ipsw.me/redsn0w",
+            "ios": {
+                "start": "4.2.9",
+                "end": "4.2.10"
+            },
+            "caveats": "iPhone 4 (CDMA) only. Tethered jailbreak. Update to a newer iOS.",
+
+            "platforms": [
+                "Windows",
+                "OS X"
+            ]
+        },
+        {
+            "jailbroken": true,
+            "name": "redsn0w",
+            "version": "0.9.15b3",
+            "url": "http://ipsw.me/redsn0w",
+            "ios": {
+                "start": "4.2.5",
+                "end": "4.2.8"
+            },
+            "caveats": "iPhone 4 (CDMA) only.",
+
+            "platforms": [
+                "Windows",
+                "OS X"
+            ]
+        },
+        {
+            "jailbroken": true,
+            "name": "redsn0w + limera1n",
+            "version": "0.9.15b3",
+            "url": "http://ipsw.me/redsn0w",
+            "ios": {
+                "start": "3.2.2",
+                "end": "4.2.1"
+            },
+            "caveats": "",
+
+            "platforms": [
+                "Windows",
+                "OS X"
+            ]
+        },
+        {
+            "jailbroken": true,
+            "name": "JailbreakMe (Star)",
+            "version": "2.0",
+            "url": "http://jailbreakme.com/star",
+            "ios": {
+                "start": "3.1.2",
+                "end": "3.2.1"
+            },
+
+            "caveats": "Visit http://jailbreakme.com/star in Safari on the iOS device itself.",
+
+            "platforms": []
+        },
+        {
+            "jailbroken": true,
+            "name": "redsn0w + blackra1n",
+            "version": "0.9.15b3",
+            "url": "http://ipsw.me/redsn0w",
+            "ios": {
+                "start": "3.0",
+                "end": "3.1.1"
             },
             "caveats": "",
 
