@@ -1,6 +1,7 @@
 package controllers
 
 import (
+
 	"github.com/astaxie/beego"
 	"github.com/cj123/canijailbreak.com/models"
 )
@@ -36,14 +37,7 @@ func (c *MainController) Help() {
 	c.TplNames = "help.tpl"
 }
 
-func GetIconName(platform string) string {
-	if platform == "win" {
-		return "windows"
-	} else if platform == "osx" {
-		return "apple"
-	} else if platform == "lin" {
-		return "tux"
-	} else {
-		return "question"
-	}
+func (c *MainController) JailbreakJSON() {
+	c.Data["json"] = &jbs
+	c.ServeJson()
 }
