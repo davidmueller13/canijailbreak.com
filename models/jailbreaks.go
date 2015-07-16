@@ -13,7 +13,7 @@ type Jailbreak struct {
 
 	IOS struct {
 		Start string `json:"start"`
-		End   string `json"end"`
+		End   string `json:"end"`
 	} `json:"ios"`
 
 	Platforms []string `json:"platforms"`
