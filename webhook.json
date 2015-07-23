@@ -1,0 +1,8 @@
+[
+	{
+		"id": "canijailbreak-hook",
+		"execute-command": "/home/cj/Projects/canijailbreak.com/redeploy.sh",
+		"command-working-directory": "/home/cj/Projects/canijailbreak.com"
+	}
+]
+
