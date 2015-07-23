@@ -29,7 +29,7 @@
 
 <div class="previous">
     {{ range $jb := .Jailbreaks }}
-        <div class="col-xs-6 col-sm-6 col-md-4 jailbreak">
+        <div class="col-xs-12 col-sm-6 col-md-4 jailbreak">
             <h3>iOS {{ $jb.IOS.Start }} {{ with $jb.IOS.End }} &rarr; {{ $jb.IOS.End }} {{ end }}</h3>
             {{ if $jb.Jailbroken }}
                 <p class="text-success"><i class="fa fa-check"></i> Jailbreak using <a href="{{ $jb.URL }}">{{ $jb.Name }} version {{ $jb.Version }}</a>.</p>
