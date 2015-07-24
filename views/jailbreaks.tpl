@@ -33,6 +33,12 @@
             <h3>iOS {{ $jb.IOS.Start }} {{ with $jb.IOS.End }} &rarr; {{ $jb.IOS.End }} {{ end }}</h3>
             {{ if $jb.Jailbroken }}
                 <p class="text-success"><i class="fa fa-check"></i> Jailbreak using <a href="{{ $jb.URL }}">{{ $jb.Name }} version {{ $jb.Version }}</a>.</p>
+
+                {{ range $plat := $jb.Platforms }}
+                    <i class="fa fa-{{ GetIconName $plat }}" title="{{$plat}} compatible"></i>
+                {{ end }}
+
+                
                 {{ with $jb.Caveats }}
                     <p class="text-warning">{{ $jb.Caveats }}</p>
                 {{ end }}
@@ -42,11 +48,6 @@
                     <em>If you're already jailbroken, we recommend that you <strong>do not upgrade</strong> or you will lose your jailbreak!</em>
                 </p>
             {{ end }}
-
-            {{ range $plat := $jb.Platforms }}
-                <i class="fa fa-{{ GetIconName $plat }}" title="{{$plat}} compatible"></i>
-            {{ end }}
-
         </div>
     {{ end }}
 
