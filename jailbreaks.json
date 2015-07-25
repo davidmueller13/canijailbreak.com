@@ -280,6 +280,19 @@
                 "Windows",
                 "OS X"
             ]
+        },
+        {
+            "jailbroken": true,
+            "name": "older jailbreak tools listed on The iPhone Wiki",
+            "version": "",
+            "url": "https://www.theiphonewiki.com/wiki/Jailbreak",
+            "ios": {
+                "start": "1.0",
+                "end": "3.0"
+            },
+            "caveats": "",
+
+            "platforms": []
         }
     ]
 }
