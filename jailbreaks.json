@@ -12,7 +12,8 @@
             "caveats": "",
 
             "platforms": [
-                "Windows"
+                "Windows",
+                "OS X"
             ]
         },
         {
